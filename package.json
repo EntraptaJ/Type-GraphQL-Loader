@@ -1,0 +1,33 @@
+{
+  "name": "typegraphql-loader",
+  "version": "0.1.0",
+  "description": "Type-GraphQL Resolver Loader System Example",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "Type-graphql",
+    "GraphQL"
+  ],
+  "author": "Kristian Jones <me@kristianjones.xyz>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0",
+    "@types/graphql": "^14.2.0",
+    "@types/klaw": "^3.0.0",
+    "@types/node": "^12.0.8",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.6.3",
+    "fs-extra": "^8.0.1",
+    "graphql": "^14.3.1",
+    "klaw": "^3.0.0",
+    "p-event": "^4.1.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.4"
+  }
+}
